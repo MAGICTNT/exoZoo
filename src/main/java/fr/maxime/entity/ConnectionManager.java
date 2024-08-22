@@ -9,7 +9,7 @@ public class ConnectionManager {
 
     private ConnectionManager() {
         try {
-            String url = "jdbc:postgresql://localhost:5432/jdbc?currentSchema=exo1";
+            String url = "jdbc:postgresql://localhost:5432/exoZoo";
             String username = "postgres";
             String password = "2203";
             connection = DriverManager.getConnection(url, username, password);
