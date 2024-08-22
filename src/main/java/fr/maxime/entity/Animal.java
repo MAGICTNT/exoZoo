@@ -9,6 +9,6 @@ public class Animal {
     private int idAnimal;
     private String labelAnimal;
     private String descriptionAnimal;
-    private int age;
+    private short  age;
     private Race race;
 }
